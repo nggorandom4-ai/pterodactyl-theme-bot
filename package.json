@@ -1,0 +1,28 @@
+{
+  "name": "pterodactyl-theme-bot",
+  "version": "1.0.0",
+  "description": "Telegram Bot untuk Install Multiple Pterodactyl Panel Themes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "telegram",
+    "pterodactyl",
+    "theme",
+    "bot"
+  ],
+  "author": "nggorandom4-ai",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^4.14.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "sqlite3": "^5.1.6",
+    "child_process": "^1.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
